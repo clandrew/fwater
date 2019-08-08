@@ -24,7 +24,7 @@ This program is organized as a Visual Studio solution with two projects.
 
 The setup has Window responsible for all the UI and user-facing elements; window, mouse input, etc, while the "heavy lifting" happens in Compute. 
 
-There's an entrypoint in Compute which draws to a Direct3D surface.
+There are entrypoints in Compute to update the grid state, handle mouse input, and draw the current grid colors to a Direct3D surface.
 
 ## Related Links
 
