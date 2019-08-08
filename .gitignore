@@ -1,0 +1,8 @@
+.vs/*
+Window/Debug/*
+Window/Release/*
+Debug/*
+Release/*
+Compute/Debug/*
+Compute/Release/*
+*.tscproj
