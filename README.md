@@ -1,7 +1,7 @@
 # FWater - Visual Demo
 This code uses the famous "two-buffer trick" to create a water-like visual effect. The idea is you have two buffers, which each store a heightmap. 
 The pseudo-code is
-* Every frame, for a given pixel P, compute the average of that pixel's neighbors in the other buffer. Invert that average. That (times some dampening factor) is P's new value. 
+* Every frame, for a given pixel P, compute the average of that pixel's neighbors in the other buffer. Half that average, and subtract P's previous value. That (times some dampening factor) is P's new value. 
 * Swap the roles of the buffers.
 
 The concept is simple, yet it creates a rippling kind of effect due to the wave-like values that the heights will have and the way they oscillate up and down. The waves will bounce off "walls", too, depending on the implementation; this one allows that.
