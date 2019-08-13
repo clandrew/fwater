@@ -17,8 +17,6 @@ ComPtr<IDXGIAdapter1> GetHardwareAdapter(IDXGIFactory2* pFactory)
 
 		if (desc.Flags & DXGI_ADAPTER_FLAG_SOFTWARE)
 		{
-			// Don't select the Basic Render Driver adapter.
-			// If you want a software adapter, pass in "/warp" on the command line.
 			continue;
 		}
 
