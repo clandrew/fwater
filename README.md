@@ -13,9 +13,11 @@ While a sensible implementation on modern computers will perform okay, this kind
 
 ![Example image](https://raw.githubusercontent.com/clandrew/fwater/master/Images/Effect.gif "Example image.")
 
-Use the mouse to cause motion in the heightmap.
+When running the program, use the mouse to cause motion in the heightmap.
 
 ## Build
+The program is for Windows-based x86-64 computer environments.
+
 Visual Studio 2019 with Intel Parallel Studio XE was used to build this.
 
 This program is organized as a Visual Studio solution with two projects.
